@@ -1,3 +1,5 @@
+package JavaBasicsSummary;
+
 import java.util.Scanner;
 
 public class Passed {
@@ -6,7 +8,7 @@ public class Passed {
         Double grade = Double.parseDouble(scanner.nextLine());
 
         if(grade >= 3.00){
-            System.out.println("Passed!");
+            System.out.println("JavaBasicsSummary.Passed!");
         }
     }
 }

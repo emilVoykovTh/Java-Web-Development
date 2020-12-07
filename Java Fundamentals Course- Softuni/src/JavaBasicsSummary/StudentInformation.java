@@ -1,3 +1,5 @@
+package JavaBasicsSummary;
+
 import java.util.Scanner;
 
 public class StudentInformation {
