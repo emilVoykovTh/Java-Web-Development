@@ -19,10 +19,11 @@ public class RemoveNegativesAndReverse {
         if(numbers.size() == 0){
             System.out.println("empty");
         }else{
-            for (int i = numbers.size() - 1; i >= 0; i--) {
-                if (numbers.size() - 1 > 0) {
+            for (int i = 0  ; i < numbers.size(); i++) {
+                if (i != numbers.size() - 1) {
                     System.out.print(numbers.get(i) + " ");
-                }else{
+                }
+                if (i == numbers.size() - 1) {
                     System.out.print(numbers.get(i));
                 }
             }
