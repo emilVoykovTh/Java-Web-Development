@@ -1,2 +1,5 @@
-package StreamsAndFileDirectories;public class ALLCAPITALS {
+package StreamsAndFileDirectories;
+
+public class ALLCAPITALS {
+
 }
