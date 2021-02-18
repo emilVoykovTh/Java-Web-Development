@@ -5,7 +5,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class SumBytes {private static final String PATH = "src/StreamsAndFileDirectories/resources/input.txt";
+public class SumBytes {
+    private static final String PATH = "src/StreamsAndFileDirectories/resources/input.txt";
     public static void main(String[] args) {
 
         try (BufferedReader reader = new BufferedReader(new FileReader(PATH))){
